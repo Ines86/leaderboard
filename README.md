@@ -1,5 +1,5 @@
 # FreeCodeCamp Leaderboard
-**[Demo](https://keen-lichterman-64b0f9.netlify.com)**
+**[Demo](https://practical-jang-283c50.netlify.com)**
 
 ![alt text](https://github.com/Ines86/leaderboard/blob/master/public/images/leaderboard.jpg "leaderboard")
 
