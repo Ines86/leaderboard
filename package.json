@@ -1,0 +1,40 @@
+{
+  "name": "freecodecamp_leaderboard",
+  "version": "1.0.0",
+  "description": "FCC project",
+  "main": "index.js",
+  "author": "Agnieszka",
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
+    "test": "jest",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.7",
+    "extract-text-webpack-plugin": "3.0.0",
+    "live-server": "1.2.0",
+    "node-sass": "4.7.2",
+    "normalize.css": "7.0.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.19.1",
+    "webpack": "3.10.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "devDependencies": {
+    "jest": "20.0.4",
+    "webpack-dev-server": "2.9.7"
+  }
+}

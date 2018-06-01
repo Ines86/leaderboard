@@ -1,0 +1,53 @@
+#leaderboard {
+  margin-bottom: 20px;
+  
+  th {
+    background-color: $green;
+    color: $white;
+    padding: $s-size;
+  }
+
+  td {
+    padding: 5px;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .userName {
+    position: relative;
+    bottom: 13px;
+    padding-left: 8px;
+  }
+
+  .userId {
+    text-align: left;
+  }
+
+  .points {
+    width: 30%;
+    cursor: pointer;
+  }
+
+  .sorted:after {
+    content: " \25bc";
+    font-size: $m-size;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  #leaderboard {
+    img {
+      display: none;
+    }
+
+    .userName {
+      position: static;
+      bottom: 0;
+      padding-left: 8px;
+    }
+  }
+}

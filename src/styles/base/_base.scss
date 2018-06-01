@@ -1,0 +1,54 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: $m-size;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  font-size: $l-size;
+  color: $green;
+}
+
+table {
+  border: 1px solid grey;
+  width: 75%;
+  margin: 0 auto;
+
+  tr:nth-of-type(odd) {
+    background-color: #f5f5f5;
+  }
+
+  tr:nth-of-type(even) {
+    background-color: #e2e2e2;
+  }
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+//Links
+$a-tags: "a, a:active, a:hover, a:visited";
+$a-tags-hover: "a:active, a:hover";
+
+#{$a-tags} {
+  color: $dark-grey;
+  text-decoration: none;
+  outline: 0;
+}
+
+#{$a-tags-hover} {
+  color: $dark-green;
+}
+
+@media screen and (max-width: 960px) {
+  table {
+    width: 95%;
+  }
+}
